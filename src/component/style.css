@@ -1,0 +1,34 @@
+.add-button {
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 27%;
+}
+
+.search-input {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 50%;
+    left: 35%;
+    width: 30%;
+}
+
+
+@media (max-width: 575.98px) {
+  .add-button {
+      position: fixed;
+      z-index: 1;
+      bottom: 0;
+      right: 50%;
+      left: 45%;
+  }
+
+  .search-input {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+}

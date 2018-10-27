@@ -9,6 +9,9 @@
 # production
 /build
 
+# ignoreconfig
+.env
+
 # misc
 .DS_Store
 .env.local
